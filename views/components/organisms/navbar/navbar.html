@@ -1,0 +1,9 @@
+<nav class="navbar">
+   <ul>
+       <% menu.forEach(item => {%>
+       <li>
+           <a href="<%= item.href %>"><%= item.name %></a>
+       </li>
+       <% })%>
+   </ul>
+</nav>
